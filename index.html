@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
+    <link rel="stylesheet" href="/static/css/screens.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+
+    <title>
+        Acceuil
+    </title>
+
+</head>
+
+<body>
+
+
+
+
+    <header class="">
+        <nav class="container  bg-white">
+            <div class="d-flex flex-wrap justify-between items-center py-5 ">
+                <a class="logo-container d-flex gap-1 items-center" href="/">
+                    <img class="nav-logo" src="/static/images/logo.svg" alt="logo" />
+                    <h3 class="text-logo m-0">Organick</h3>
+                </a>
+                <div>
+                    <button type="button" title="menu"
+                        class="p-0 bg-tansparent border-none cursor-pointer btn-menu-nav d-none mobile-block"
+                        id="btn-menu" value="">
+                        <svg width="50px" height="40px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="Menu / Menu_Alt_01">
+                                <path id="Vector" d="M12 17H19M5 12H19M5 7H19" class="stroke-primary" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </button>
+                    <ul class="d-flex gap-6 nav-items mobile-none">
+                        <li class="nav-item"><a href="/" class="nav-link">Acceuil</a></li>
+                        <li class="nav-item"><a href="/about.html" class="nav-link">A propos</a></li>
+                        <li class="nav-item"><a href="/services.html" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="menu-mobile-container m-0 d-none" id="menu-mobile" value="wdef">
+            <ul class="nav-items">
+                <li class="nav-item"><h3 class="m-0">
+                    <a href="/" class="nav-link">Acceuil</a></h3></li>
+                
+                <li class="nav-item"><h3 class="m-0">
+                    <a href="/about" class="nav-link">A propos</a></h3></li>
+                
+                <li class="nav-item"><h3 class="m-0">
+                    <a href="/services" class="nav-link">Services</a></h3></li>
+                
+                <li class="nav-item"><h3 class="m-0">
+                    <a href="/contact" class="nav-link">Contact</a></h3></li>
+                
+            </ul>
+    </div>
+    </header>
+
+
+
+    <main>
+
+
+
+        <section>
+            <div class="banner hero-home py-20">
+                <div class="d-flex container py-10">
+                    <div class="w-45 mobile-full d-flex flex-columns gap-4">
+                        <p class="yellowtail-regular m-0">
+                            100% Aliments naturels
+                        </p>
+                        <h4 class="m-0 text-start">
+                            Vis de la <br /> façon la plus <br /> saine
+                        </h4>
+                        <div class="">
+                            <button type="button" title="" class="btn btn-yellow">
+                                Decouvrir
+                                <svg width="17" height="18" viewBox="0 0 19 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.5" cy="9.71094" r="9.5" fill="#335B6B" />
+                                    <path d="M9.47641 6.33984L12.871 9.40436L9.47641 12.4689M12.3995 9.40436H5.51611"
+                                        stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="container py-20  d-flex justify-center items-center">
+                <div class="d-flex w-80 bg-dark mobile-full gap-4 mobile-columns">
+                    <div class="flex-1 bg-primary banner-promo banner-promo-1 banner py-10">
+                        <div class="w-50 mt-4">
+                            <p class="yellowtail-regular m-0 text-white text-sm">
+                                Naturel!!
+                            </p>
+                            <h5 class="m-0 text-white mt-2">Obtenez des <br/>  fruits frais du <br/> jardin</h5>
+                        </div>
+                    </div>
+                    <div class="flex-1 bg-primary banner-promo banner-promo-2 banner py-10">
+                        <div class="w-50 mt-4">
+                            <p class="yellowtail-regular m-0  text-sm">
+                                offre!!
+                            </p>
+                            <h5 class="m-0 mt-2">Obtenez 10 % de réductionsur Légumes</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-10 banner-about-home">
+            <div class="d-flex justify-center">
+                <div class="container d-flex justify-center items-center mobile-columns">
+                    <div class="flex-1">
+                        <img  class="w-100 h-100 rounded"= src="/static/images/img-promo-home.png" alt="" srcset="">
+                    </div>
+                    <div class="flex-1 b">
+        
+                        <div class="w-100">
+                            <div class="">
+                                <p class="yellowtail-regular">A propos de nous</p>
+                                <h4 class="m-0">Nous croyons au travail Agriculteurs accrédités</h4>
+                                <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
+                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                            </div>
+                            <div class="d-flex flex-columns gap-4">
+                                <div class="d-flex gap-4 items-center w-80 mobile-full">
+                                    <div class="bg-white p-2 rounded">
+                                        <svg width="53" height="46" viewBox="0 0 53 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <circle cx="12" cy="21" r="12" fill="#FFF4CD"/>
+                                            <rect x="7" width="46" height="46" fill="url(#pattern0)"/>
+                                            <defs>
+                                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                            <use xlink:href="#image0_0_1" transform="scale(0.01)"/>
+                                            </pattern>
+                                            <image id="image0_0_1" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAXsUlEQVR4nO2de3xU5bX3v+vZk4SrWFCoIlC14oX2eEO0x0sPp1bIRLCeHtG2tp9aq1RIgvi2osAM2wRvta+QTJBibX21tkfRz7E0ZCaAFa3UcrOe2npBj1VbrIpErEAIyexnvX8kgdk7M7nNTEDp76/s9VzW2rOyn/0867aFLBGpq5kmostAHESvriguezTbOQ9lmGwnENFq4HDQwShVOZDpkEbWCgE+lfL3Ue5ytzAHcx6yyIVC/pF6sXfQ0CE5mPOQRfYKURpSL0PifCbrOQ9hZK0QFV7xU7xx2c55KCOU7QQCLwJfab82as4H/l9P55m/KnasWIqxfElER4GMBBTYgcj7YnWDOrrOWJ5xw+UfZSv3wQrJdoJoIjYJpT6FtNVsbBjjuq7tzvhIffX5KHNFZXI3We4Blhv0x264fH2PBT7IkbVC3NplA6zT/AFQ1E5ToxdUTi5/prNxc9YsG1KU3BtD5ZtZsF9v0NmfJMVk/Q5xp0xvBFntm9TK9zobMz+x+MSi5ubnu1BGC7C3C/bnWOTZBXWxn8+rXTqymyIf1MjFthdUH/BdwuXz49XHp+saiVefbtSsQzg2OAtILaJf97zQMWZjQ7+KcFk/098MVpVzVLgZ+H2aKUWFKx0n+WI0Uf21nNzPAUTWSxZAWby66FPIm8Cn9xFVllWUlPqelHmrloxyPLseONovhTynaq+pDJc/3xWvyMqqM8WRWah8gzT/UKI8JKIzP64v/pwoBCCSiN0kyu0ppL3Gs2PdKbP+CuCudUO2cdjvECYEBLhXdjWUudPc5p7wc+trzrBWq4FzOzQqbyjytcqS0g29uJUDitwsWUBzqHApsCOFVGSNuaf9wmscelNHZejiW8Jl03uqDAB3cukfKopLz0f4LrDL1ygcK6JPRxLV3+7pvAcaOXtCACLxmusFXZRKU5XLnQJdZ5O8BgzY30Cd2dQwtbvb484wv7bqBOPIL0DO6tCoLHp594gfPDptmpctn75Azp4QAGfX9nuAV1NpIlqlSW4nVRno9mTSuzoXygBYOGXWa+8OLzpXkNsA/5zC7JMHvVfnrl0yKBe88o2cPiEAkXj1FwVZ29ncipZVhstrcs0bwE3UhK3qL4GgkXOz8QqL3SnTt+eDb66Q0ycEoDJc/jTojzvpssPpP/i+XPNth1tcGlcj5wKvB5rGW6f5KXd17Oh04w4W5FwhAMYr+j7wUobmx9yJVzXlg287KieXvthSKGejBK0F42ySZ+atWjIqn/yzQV4U4k6Z3misvRzo8MOrysZ88Azi9gtLG3bubpmkEA80Hed49om5KxaP6As5eor8KGR17GhPzC1Av2CbiN40t37RUfngG8SiaTfseW944VdQ/ivQNDZUYFa79XcP7Qs5eoKcKyS6smqiTfKCCP+RocvxIRtaffMTNcNyzTsd7h0/vcVsarhS4EF/i/yLtQXx2cvv7t8XcnQXOVVINFHzJYxJAF392J8raLaJOWuW9Ym713VdK/0brlblvwNNZw8eVPAAqjnfbfYWOVOIm1j0GVQfI8UMD6DwpBEmKvzKP0LOKmppfvLmePWRuZKhU/kmuklnd8PXgFWBpssWJJYs7AsZuoOcKcTT0E+Bw1NIFiivLC690C0ue8rZ1XC5itYHhp1RgDzdV6Zzd5rb3Og0fRXwGTEVnRtJ1FzRFzJ0hZw8qtH66hKsrAzM/N2K4rKfppJmL7+7/6BBBSsF/t3XV3nDhAi7k8oC/vn8wI1XH2ORDfitzruMw1l9JUMm5OQJUSs3+K7hV0FlQOuuZ9eulotR6nwNwrHW41k3Hvv34Jh8wA2XbzXKJbS6g9sxyHo89v1Vdw3sCxkyIWuFzKurGSMwMYWUdDw7K1P/RdNu2PPuiMJLBR4ONH3KQn0kXv2dbGXqDtySss2KlgbI4wZ6/e7uC/6ZkLVCjGESvqVPEu0+kEy4d/z0lpd2jbhSIGjPKhDkpwvqaqqu3bysIFvZukJluPxnouKLkFG4xq2vvjDfvDMhe4Wo+h1E2mEXkxaPTpvm3RIuK0O5HvCZxlW0/NPvNf+mLw6QYgtm4jfziLVy340r7hycb97pkH2gHHqyb0L1unTDpqKipKwK9FI6OpnOD9nQ5ujKqonpR+YG7pTpjaryHfz/FGP6Fwz4YT75ZkIOXuoy2n8Z+ktPZ6gIl9cacc4F/jfQdDTGPLEgHrszn0HclSWlG1DxvTsUpvfVJiMVudhl+Rw//9i99x+ZOnYGt3jGC2Zv8iyFlYEmo3CjHTRs/fyVS05OOzgH2Lm7eQHIlhSSWOW+vnZs5UIhPgPiED7qtavUvXT2h5XFpVNVNQIkA82nG2M3RxKxGfkwdSyadsMeRa8m1eMoHGv32Jtyzasz5EIhu31Xg4dk5wAS0cqS8oUqcgEQXP4GiLIkGq+pdVctHZ4VnzSoDJf9TtDqAPn/uIlFfRbRnwuFvO27sgWjM/TrESqLS3/f1NJ4WnBbCoBQYr3kS5FE9bdz/bTsadkTBd5JIfVTnDuD/dzaZQMiddXzF9TVVEUTscvcxxcdHuzTG2QfbB2PPQZ8NWVGt6K47JZs5/XxSMQuQ/kx0NF/IbLWWL7nlpS+2nFk7xBJVH9bVO5PIaka/WJqvPKCRPVPVOW7KX2SoOsVEo6ax3orT4+eELeuZmwkHjvXdd3944JuUk1RTo5QUVz2qEFPVXiyQ6PqRCv6x2g8FsnVTszZ8MGDoJtSSCJqFqXet6qMDwwLgZwnyK1WdEs0HtsUTcRm9/Qs1S2FROtqvhyJx1ZZ0VcE1nlnD61rXyqstUEX6efdulhQ2Kzhhsu3Ohsbvqyis0B2Bpr7ARV20LDn3bqaC7Lm5brWWL2e1vyUVqie6Z097Ov7LpEH0o1NwXiUu0M29OaCutjPIyurzuwO706XrLaQnjuAc4JtFv3swnD56wDReOxZ4Av7W/U3FeHyvJkf5q1aMsqxXgyVS9I0K7DcU5lza0npW9nwWRCP/UJhnxJQ3jC7G05qj7SMJGq+IJZLES0GPtfVfApPOUbnuJPLM8YVpFWIuzp2tNdCrBM37I5Gp2nUjyb9YDdANF49BeTXqR2MmmK3ZGbQ/5FTRBM1l6IaA9L5U/YAd5v+5g534sxdadq7xLy6mjGO6BZSc19EZ1UWlwd3Yu3/JGFVuULgAjKvPgryS4O9yQ2Xbw02dlBI2wv0XvzOptTZnnKUH7glZZt94+KxdfgDn982TugMd9J12zIIlhO48erDLLIQmEn6H+HvKjrP2fDBg72JlFyQqP6/qj73wvtNLY3H//CSOcFlM1WmY6zwNVSuBT6bodsHoN+uCJfXphJ9N7CgrqYS5RHSKEOVJ9ToBZXhsolBZQCo0ZsDpJHWa/nlZcuXO5kEzwXccPlHFeGycqOcjcizabocLSr32wnDVvZmi9xcYG4DPkwhHdk/NPDGLmTaWlFcfpfZ2HCiES4Bnk7TbSjIigV1sdSMgf1PyIJ47E6FjoyUZ9TInMri0nTJMj5E47HFgN8XorKsIjzzOkQ0/agcQlUi9UsuF9U7gDHBZoOOc8PlmQL4MiJNqsUeI8lT3OLZb3Z3jrZczB+R/l1TWREui7bKCETrar6ZRhl7VLmuIlz6xe4oA8DsargR8Of7iU5fkFhyn2+rnC+IaGVx6cM7d7WcDMzHb0He3WRD72QY2Sl27Wypwm816G819KOezFFRXLbq5V0jTgO5iY5moUikrua7AHJzvPrIAuRV/MvUu8ZIiTu59A89Fd6trRptHXkO5IhUusDD4hVe3ZqT2DdwV8eO1haZY0VHO0KVW1z2VK/nildfZBG/r0fkwori0t/0eK6VVf9qjanFd9CVncmW5AnS8XGUnWr4QuXk0hd7LXzinn+x6j0BBEN8/mytmbbw4pkv93buA4loPPYz4KoU0lbjhM7szcYlklhylqh9khRruaAVRgIna4VoNsqAVlO6GpkIvBto+pwxdlM0Xn1NnyxhOYbpb8oDJvpjvGTyF725l8rimZtQuS2VpsgUA/iyZZOF/Lx34gYYTi590Yr3b8BrgaaBIPfaCcM2uIkl5+WCV1/Ara0abffYWaA+d4MIF9qzjvhGb+Y0BRo87Y8N4S+vBM02Z/+5C4uv33LjijvP7BcasAwhmLI83qr97YJE9aPW0x9WXjzruVzxzRW+v+qugf29oq8KfMsiE8lw2FOxvUtv0FAy8H53QrQm6O+L8CgQuRJYRI7QdoD6ejRevRakCkgNbhZVmSZGpkXjsd8BsXeHF/73veOnt+SKf0/RusnhIjDFeHoJAY9oGvzF6RDI3T14Se9K8Z+MjETjsR34d1i7jDjnusUzXugNk87QZoq4E5hGZjvaNkFWClq7y2la026eyReu3bysYMS25glGZbKKTgbOoHtG1z+pSI2TLHioNzvHSH31qWJlHX6F75BoPLaVjrag9wz6lXzVEInEY+cKLAa6sgo3Ac+I8pwa/mDEPO9OmvF6bw+ZN664c/CAwkGneuqdJiqnYeQ0VD9HIEC8E+wReFytva/i4llreyMDgBuvPsciK4Cg13OrROOxLcDYNOOaVGXeK7uHV+Ujpdh1XWMnDJukouWiEgi26wyyE3QrsE3gHVS2qeg2hIGo7vvPFqEAK8PVyEhUP01rHG9v0h8s6LMID5km7xH30tkfdj0kPS5bvtw5aeC2WSJ6K2mSmUC2SDQeWw+cnXka3aTwg9ZkzvzArasZa0VLgW+QzivY92gGfQY1j5sCfdy9qOzv2U7oJmL/ZpW76HxV+L1E47GHgcu7MecaA3e4xaVr82WXcte6IW/P0HMFMwV0KnBCPvikQTPwgsB6EdbQzzzZW5O9D6riJmomWrgJ+HLX/fkvWVAXu12Fm1KIf0T4DJkf75dQuaeliIdvv7C0IUOfnMCtqxnrGZ0gKqcperrA6QS36T1HI+j/gjynwmYwm5yd7/+xN+U9MuHmJ2qGFezlCkRnAKdk6PYPlDcRTt1HEW6XSKLmWlFd1k5T+LX1QjOMk7xHYGonfFtQVqvh4WSBJPKtnHbMW7VkVIHnjbRwpMKRghwFHCmt2+lmRfftygT2WjFvi9i3TVLfaqLg7TsunrEj8+y9x81P1AwLtWixWK5AuIiUo0QHiK7wkgUzHcdbCjqlnawi06Vtbdu/Y1DeqCgpOw7aXbgsBOnqRO0BmxRJYOxap2jwpnznoh9ouGvv70fj7gnW6ESUYlrfDZ37fpRnDDLfLSn9LUA0XvMG6L6YLyNMlDaP2w72773VmJYj3Mk3fNDeMbqyaqKKKRVhKt0rnLkX2IzKs4g+Z8X7n9CGD1/LVW2TvsZly5c744a8d4Jn5TSxnIHhXFTHA92JckkCK7B2SepW2a2/e6i1BdvZv7u0Bv2UAETjsRfxrXU6NehaBJhXu3SkMS1XicgVQE/Lwe4G/gy8gsoW0FcVXnVE3zpYio3NWbNsSGFz82iBsSBjET0ROIlWp1JPM6teVNWHrS24/9Yp170dbEwTh/BSRbhsXAhAVDaq6H6FtJZ67aCQtokXAgsjdbHPG2SaioZpfdl2dY4YSOv2+mzaNmkCWIRoPPYR8DeFt4zKNkS3W3gP0e2iNCCmUT3vQ6fA7KbZNjZJwT5/dvCdcNPKe/a99Ptpy2AKzQCvxQ4UxzkctQNUGCZwpKgMR+UIFR0BjAZG0dJ82P676PFGUoHnRSVu0eWVJWV/6qyzIOcFOGyCtuXHin1GkP3FvkS73KK1MfwTEJm7YvGIUGFoMqoTgfMIWJC7gcOAcQLjNEVZtLvAVRFjsB7gGApTUjmi8Vhgqv1tFgMeiDGgCkj7/0Lrz5397v11YB0ia5PNyfrbLrn+ve4OVPCFSanKOmi7b3d17GibZCv7/8vVc8yYWyfN/FtvpJxbv+iokIbOQ/VMkDOA0+jorPq44X2F5wV93sDmZuP97rbJs3vlEp5Xu3Sk4yT/Rurv7YVG3Trlurf3PaDReOw5Wg1rrT2EmZXFZfeQI8yrXTrSMd4pwFgRPcnCWIHjgGNIa0Y4IGgCtir8RWALKluMY7e0tBS8nO490FtE6mLfE2Hpfoq+UBEuPxVSdkyiElfRfQoRyxVAzhTSdkNvA2uCbXNXLB5RGHJGWWQkYoeDDBf0CBWGqcowYICIDEb1MFrPG6kv2OBBMfWdshtoRGSnqu4EGkW0ASvbVXQ7arYJvK/qbfU83dqTJScriN8yIirx/U1tcOPVp1gk1XWrxjqfdS+e0eMUtX8iM9qWq7+SYuI3ak53S2b+D6nEtnil1IRNUbGpDv1/IgdwnOR38Ptb/tyuDAg6YsTvT1fRGQe6ssEnCWXx6iLgOh9R1Odt9CnEmNAv8FeBGzrAFl2ZLwEPNRzeGleQmi/SnBTvodQ+PoW4k67bJsgvfbOo3PBxDNk5GCFWrvcT9JHg1rnDD21VF+M/po61E4aW5EXCQwjRRM2XfKZ2wFjpkNbQQSFtJ/DVfqrc8s+nJAuoCqrBvMvfpssiyBBnZCL4n5LTvbOHfiuHIh5SiNbX/CfBjwZY66brm9EgGInH6gTCKaS/NzpNY/MdlvNJg7vcLbSDhv0Znzta11WEy89P17+TZUjn46+jfvQA2+/7OZHyEII36IgZ+GMDVFtTEtKiU5N5mlzsRqNyei5zwj/JaCsl+Cf8gYiPVITLMtZ37PRFLaZgHv50rgFW9IF8p6l9IqAqFgnmau7xVOZ0NqxThbTmPcjcAPmckwdt++fS1QWi9bFrgWIfUaWyq1TtLreyFcUzfwwk/FS9JVIX+3yPpTxEMH9V7FjU3BUgr3959/Aui6J1fbYQUYNei3/pKhLhAXft/QeLH+OggbvWDRlPHwRNLRG4xzhc1Z2Q3G4d9txw+VZUygPk07Vx1096IuyhALtn2N3BsClF5na3HnC3T98VJaU/Bx73MRKujMSrg6VWD1lE4tXfAsoC5Kedjds7mEgyoUfmkGbrXE0gRU2Qu3NR8OXjDrcuNl6QZQHyOybE13sSj9Yjhdxx8YwdxmEq/o/aF1jRX0fqq0/NNO6Tjvnx6uOtUIs/NqBFjV7e08j5HhsM3UllrxjhW/hP8UPESt28upoO1RM+6XBXLR1ukDipXzkFQGd29YHmdOiVBdctLvs1EA2QRzrCqr76es7BgLkrFo+wXvI3dEx4qqoIl/dqw9Nrk3pFuOxWIBClpieGvNCTfVk08kBhfm3VCaGC0NMEapeI8pDZ2HBDhmFdIisfh9nYcL2A38MonGQ1tD4Sj3X8Ru0nBNF4rNg4ZgPoif4WqX1nROF3sgkqz7oI5mXLlzunDHrvQV/ltVZYgfvEK5zdl/VN8gk3Xn2YIncpXEPwt1PqzIBB/5ltGkZOSqy6a92Q3TPsXvx1QNrxuipRZ1PDwx/ndISTBr/7TVGpADoUCRB08TvDi27MRX597mreqkoksSQiqJt2XuWPGG5998jCXx3IwgA9gbvWDdmmYZeiuKRPTWtSdHpluLxXhQPSIeclu6OJmi+h+jNaQ/zT4R3gPs8xP+ltMHe+Mbd+0VGOLbhGWm14mb6PtcFac1WuKxvl5XNxc9YsG1LU3HInoleTOeNKUTap6AqMWZFtBaJs4a685zjP2KkiTEX1fDLL/ZFC5Su7RizKR/5+Xr/f566KnWQ9FgL/0Q1eb6E8C2wwohsa4PlYuHxvPuS6bPlyZ9zg7eM8aycYY89WlX8lc7ZsO5pE9B5JFt2ezy9O98kHFd36mjPUo0xFL8dffKYzNAOvobyJ0TdR3kDlTaP2HQ/2OhTsaFHZ64k2vt54xEcAxw/YfpgJ7e1XmCzq74WSgx0osp45qi2xcgzCaFprMZ5Mt1PUdLsgP0s6pqYvltg+/cJla6Jj6Cpas7W6LDx8AGERWQ/ca/oNfKQvM4oP2CdH3cSiz3gUXITqFIFJdJbX3TdoUmWdwErPhh7LZYJOT3BQfAN2zpplQ/p7e8/yLBNEmIDKBPxByfnAXxXZCLrBUdm4K7TnuYMh5uygUEg6zF2xeIRTGDoOGCPKGLBjUBkNHIlQSGuiaH9aTd6HtQ37iNYS4020ugiaFd4X0beAt9Sat4C3kmL/cnu4/P0+v6lu4P8DorBaZl/Oi9cAAAAASUVORK5CYII="/>
+                                            </defs>
+                                            </svg>
+                                            
+                                    </div>
+                                    <div class="d-flex flex-columns justify-between gap-2">
+                                        <h5 class="m-0">Aliments bio uniquement</h5>
+                                        <p class="m-0">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-4 items-center w-80 mobile-full ">
+                                    <div class="bg-white p-2 rounded">
+                                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <rect width="52" height="52" fill="url(#pattern0)"/>
+                                            <defs>
+                                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                            <use xlink:href="#image0_1_571" transform="scale(0.01)"/>
+                                            </pattern>
+                                            <image id="image0_1_571" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                                            </defs>
+                                            </svg>
+                                            
+        
+                                    </div>
+                                    <div class="d-flex flex-columns justify-between gap-2">
+                                        <h5 class="m-0">Normes de qualité</h5>
+                                        <p class="m-0">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-secondary mt-4" title="back to home"> 
+                                A propos de nous
+                                <svg width="17" height="18" viewBox="0 0 19 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.5" cy="9.71094" r="9.5" fill="#335B6B" />
+                                    <path d="M9.47641 6.33984L12.871 9.40436L9.47641 12.4689M12.3995 9.40436H5.51611"
+                                        stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+        
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="">
+            <div class="testi-banner banner pt-10">
+                <div class="d-flex justify-center w-100 bg-dark">
+                    <div class="w-60 d-flex flex-columns justify-center">
+                        <div class="d-flex flex-columns justify-center w-100 ">
+                            <div class="d-flex flex-columns justify-center items-center gap-6 py-10">
+                                <div class="d-flex flex-columns justify-center gap-2">
+                                    <p class="m-0 text-center yellowtail-regular">Témoignages</p>
+                                    <h4 class="m-0 text-center">Que disent nos clients ?</h4>
+                                </div>
+                                <div class="d-flex flex-columns justify-center gap-4">
+                                    <div class="d-flex flex-columns items-center gap-2">
+                                        <div class="avatar">
+                                            <img height="100%" width="100%" src="/static/images/avatar-home.jpg" alt=""
+                                                srcset="">
+                                        </div>
+                                        <svg width="124" height="27" viewBox="0 0 124 27" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M13.9264 2.78166C14.234 1.87797 15.5121 1.87796 15.8197 2.78166L17.7879 8.5641C17.9259 8.96936 18.3065 9.24187 18.7346 9.24187H25.0014C25.9814 9.24187 26.3765 10.5051 25.5713 11.0636L20.5825 14.5235C20.2157 14.7779 20.0619 15.2448 20.2058 15.6674L22.13 21.3205C22.4408 22.2337 21.4061 23.0142 20.6134 22.4644L15.4429 18.8785C15.1002 18.6408 14.6459 18.6408 14.3031 18.8785L9.13263 22.4644C8.33996 23.0142 7.30524 22.2337 7.61607 21.3205L9.54027 15.6674C9.68414 15.2448 9.53039 14.7779 9.1635 14.5235L4.17474 11.0636C3.3695 10.5051 3.76469 9.24187 4.74463 9.24187H11.0115C11.4396 9.24187 11.8202 8.96936 11.9581 8.5641L13.9264 2.78166Z"
+                                                fill="#FFA858" />
+                                            <path
+                                                d="M37.4856 2.92763C37.7849 2.00631 39.0883 2.00631 39.3877 2.92763L41.2147 8.55088C41.3486 8.9629 41.7325 9.24187 42.1658 9.24187H48.0783C49.047 9.24187 49.4498 10.4815 48.6661 11.0509L43.8827 14.5263C43.5322 14.781 43.3856 15.2323 43.5195 15.6443L45.3465 21.2677C45.6459 22.189 44.5914 22.9551 43.8077 22.3857L39.0244 18.9103C38.6739 18.6557 38.1993 18.6557 37.8488 18.9103L33.0655 22.3857C32.2818 22.9551 31.2273 22.189 31.5267 21.2677L33.3538 15.6443C33.4876 15.2323 33.341 14.781 32.9905 14.5263L28.2071 11.0509C27.4234 10.4815 27.8262 9.24187 28.7949 9.24187H34.7074C35.1407 9.24187 35.5246 8.9629 35.6585 8.55088L37.4856 2.92763Z"
+                                                fill="#FFA858" />
+                                            <path
+                                                d="M61.0533 2.78166C61.3609 1.87797 62.639 1.87796 62.9466 2.78166L64.9149 8.5641C65.0528 8.96936 65.4334 9.24187 65.8615 9.24187H72.1284C73.1083 9.24187 73.5035 10.5051 72.6983 11.0636L67.7095 14.5235C67.3426 14.7779 67.1889 15.2448 67.3327 15.6674L69.2569 21.3205C69.5678 22.2337 68.533 23.0142 67.7404 22.4644L62.5699 18.8785C62.2271 18.6408 61.7728 18.6408 61.4301 18.8785L56.2596 22.4644C55.4669 23.0142 54.4322 22.2337 54.743 21.3205L56.6672 15.6674C56.8111 15.2448 56.6573 14.7779 56.2905 14.5235L51.3017 11.0636C50.4965 10.5051 50.8916 9.24187 51.8716 9.24187H58.1384C58.5665 9.24187 58.9471 8.96936 59.0851 8.5641L61.0533 2.78166Z"
+                                                fill="#FFA858" />
+                                            <path
+                                                d="M84.6125 2.92763C84.9119 2.00631 86.2153 2.00631 86.5146 2.92763L88.3417 8.55088C88.4755 8.9629 88.8595 9.24187 89.2927 9.24187H95.2053C96.174 9.24187 96.5768 10.4815 95.7931 11.0509L91.0097 14.5263C90.6592 14.781 90.5125 15.2323 90.6464 15.6443L92.4735 21.2677C92.7728 22.189 91.7183 22.9551 90.9346 22.3857L86.1514 18.9103C85.8009 18.6557 85.3263 18.6557 84.9758 18.9103L80.1925 22.3857C79.4088 22.9551 78.3543 22.189 78.6536 21.2677L80.4807 15.6443C80.6146 15.2323 80.4679 14.781 80.1175 14.5263L75.3341 11.0509C74.5504 10.4815 74.9532 9.24187 75.9219 9.24187H81.8344C82.2676 9.24187 82.6516 8.9629 82.7855 8.55088L84.6125 2.92763Z"
+                                                fill="#FFA858" />
+                                            <path
+                                                d="M108.18 2.78166C108.488 1.87797 109.766 1.87796 110.074 2.78166L112.042 8.5641C112.18 8.96936 112.56 9.24187 112.988 9.24187H119.255C120.235 9.24187 120.63 10.5051 119.825 11.0636L114.836 14.5235C114.47 14.7779 114.316 15.2448 114.46 15.6674L116.384 21.3205C116.695 22.2337 115.66 23.0142 114.867 22.4644L109.697 18.8785C109.354 18.6408 108.9 18.6408 108.557 18.8785L103.387 22.4644C102.594 23.0142 101.559 22.2337 101.87 21.3205L103.794 15.6674C103.938 15.2448 103.784 14.7779 103.417 14.5235L98.4286 11.0636C97.6234 10.5051 98.0186 9.24187 98.9985 9.24187H105.265C105.693 9.24187 106.074 8.96936 106.212 8.5641L108.18 2.78166Z"
+                                                fill="#FFA858" />
+                                        </svg>
+                                    </div>
+                                    <p class="text-center">Simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-columns">
+                                    <h5 class="m-0 text-center">Sara Taylor</h5>
+                                    <p class="text-center text-sm">Consommatrice</p>
+                                </div>
+                                <div class="dots d-flex gap-2">
+                                    <div class="dot"></div>
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="divide-x"></div>
+                            <div class="pt-5 d-flex justify-center mb-4">
+                                <div class="w-90 d-flex gap-6 mobile-columns">
+                                    <div class="flex-1 d-flex">
+                                        <div class="flex-1 d-flex justify-end gap-6">
+                                            <div class="rounded-full round-testi-container p-1">
+                                                <div class="round-testi   d-flex items-center justify-center  flex-columns gap-1">
+            
+                                                    <h3 class="m-0">100%</h3>
+                                                    <p class="m-0 text-sm">bio</p>
+                                                </div>
+                                            </div>
+                                            <div class="rounded-full round-testi-container p-1">
+                                                <div class="round-testi   d-flex items-center justify-center  flex-columns gap-1">
+            
+                                                    <h3 class="m-0">285</h3>
+                                                    <p class="m-0 text-sm ">Produits Actifs</p>
+                                                </div>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 d-flex">
+                                        <div class="flex-1 d-flex justify-end gap-6">
+                                            <div class="rounded-full round-testi-container p-1">
+                                                <div class="round-testi   d-flex items-center justify-center  flex-columns gap-1">
+            
+                                                    <h3 class="m-0">350+</h3>
+                                                    <p class="m-0 text-sm">Vergers Biologiques</p>
+                                                </div>
+                                            </div>
+                                            <div class="rounded-full round-testi-container p-1">
+                                                <div class="round-testi   d-flex items-center justify-center  flex-columns gap-1">
+            
+                                                    <h3 class="m-0">25+</h3>
+                                                    <p class="m-0 text-sm ">Années d'agriculture</p>
+                                                </div>
+                                            </div>
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-10 mobile-py-4">
+            <div class="d-flex d-flex justify-between mobile-columns mobile-container relative">
+                <div class="img-overlay w-50 mobile-rounded mobile-full">
+                    <img class="w-100" src="/static/images/nature.jpg" alt="" srcset="">
+                </div>
+                <div class="card w-40 bg-primary absolute mobile-static mobile-m-0 mobile-p-0 mobile-full card-nature mobile-mt-4">
+                    <div class="mobile-mt-4">
+                        <div class="text-n ">
+                            <p class="yellowtail-regular m-0">
+                                Ami de la nature
+                            </p>
+                            <h3 class="m-0">
+                                Econis est votre <br /> Magasin bio
+                            </h3>
+                        </div>
+                        <div class="mt-4 d-flex flex-columns gap-6">
+                            <div>
+                                <h5 class=" m-0">Commencez par notre entreprise d'abord</h5>
+                                <p class="m-0 mt-2">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class=" m-0">Apprenez à vous développer</h5>
+                                <p class="m-0 mt-2">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class=" m-0">Stratégies agricoles d'aujourd'hui</h5>
+                                <p class="m-0 mt-2">Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                </p>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="">
+            <div class="presentation py-10 mobile-container">
+                <div class="d-flex gap-4 mobile-columns ">
+                    <div class="flex-1 presentation-bg presentation-bg-1 py-20 banner mobile-rounded">
+                        <button title="Jus naturel" type="button" class="btn btn-white">Jus naturel</button>
+                    </div>
+                    <div class="flex-1 presentation-bg presentation-bg-2 py-20 banner mobile-rounded">
+                        <button title="Aliment bio" type="button" class="btn btn-white">Aliment bio</button>
+                    </div>
+                    <div class="flex-1 presentation-bg presentation-bg-3 py-20 banner mobile-rounded">
+                        <button title="Biscuits aux noix" type="button" class="btn btn-white">Biscuits aux noix</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+    <section>
+        <div class="container d-flex justify-center py-5 items-center">
+            <div class="newsletter-card w-90 py-5 px-5 mobile-full">
+                <div class="d-flex mobile-columns justify-between items-center mobile-items-start">
+                    <div class="w-40 mobile-full">
+                        <h3 class="text-newsletter text-start mobile-text-center">S’inscrire à notre Newsletter</h3>
+                    </div>
+                    <div class="mobile-full">
+                        <div class="d-flex gap-2 items-center mobile-columns mobile-items-start mobile-full">
+                            <div class="mobile-full">
+                                <input placeholder="votre-email" class="form-input mobile-96" />
+                            </div>
+                            <button type="button" class="btn btn-secondary  mobile-full">S’inscrire</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer ">
+        <div>
+            <div class="container py-10 footer-top d-flex justify-center items-center">
+                <div class="w-50 mobile-full footer-top-info d-flex mobile-columns  justify-center gap-4">
+                    <div
+                        class="d-flex flex-columns justify-end mobile-justify-start items-end mobile-items-end text-dark gap-4 px-10 mobile-p-0">
+                        <h3 class="font-bold text-end mobile-text-start text-dark m-0">Contact</h3>
+                        <div class="d-flex flex-columns gap-6 text-end mobile-text-start ">
+                            <div class="text-end mobile-text-start ">
+                                <h6 class="font-bold m-1">Email</h6>
+                                <a class="decoration-none text-dark text-sm"
+                                    href="mailto:organick@gmail.com">organick@gmail.com</a>
+                            </div>
+                            <div>
+                                <h6 class="font-bold m-1">Télépone</h6>
+                                <a class="decoration-none text-dark text-sm" href="tel:777777777">+221 77 777 77 77</a>
+                            </div>
+                            <div>
+                                <h6 class="font-bold m-1">Adresse</h6>
+                                <a href="#" class="font-bold decoration-none text-dark text-sm">Point E</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider-y"></div>
+                    <div class="d-flex flex-columns px-10 gap-4 justify-center items-center">
+                        <div class="d-flex flex-columns justify-center items-center">
+
+                            <a class="logo-container d-flex gap-1 items-center" href="/">
+                                <img class="nav-logo" src="/static/images/logo.svg" alt="logo" />
+                                <h3 class="text-logo m-0">Organick</h3>
+                            </a>
+                            <p>Le gout du délicieux</p>
+                        </div>
+                        <div class="rs-container">
+                            <div class="d-flex gap-2 rs-container cursor-pointer">
+                                <a class="single-rs-container rounded-full d-flex justify-center items-center">
+                                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.6585 1.61707C14.7231 1.62013 15.7431 2.02872 16.4958 2.75358C17.2486 3.47845 17.6729 4.4607 17.6761 5.48582V13.2225C17.6729 14.2476 17.2486 15.2298 16.4958 15.9547C15.7431 16.6796 14.7231 17.0882 13.6585 17.0912H5.6243C4.55976 17.0882 3.53973 16.6796 2.78698 15.9547C2.03423 15.2298 1.60994 14.2476 1.60676 13.2225V5.48582C1.60994 4.4607 2.03423 3.47845 2.78698 2.75358C3.53973 2.02872 4.55976 1.62013 5.6243 1.61707H13.6585ZM13.6585 0.0698242H5.6243C2.53087 0.0698242 0 2.50696 0 5.48582V13.2225C0 16.2013 2.53087 18.6385 5.6243 18.6385H13.6585C16.752 18.6385 19.2828 16.2013 19.2828 13.2225V5.48582C19.2828 2.50696 16.752 0.0698242 13.6585 0.0698242Z"
+                                            class="svg-rs" />
+                                        <path
+                                            d="M14.8638 5.48661C14.6254 5.48661 14.3924 5.41854 14.1942 5.29102C13.996 5.1635 13.8416 4.98225 13.7504 4.77019C13.6591 4.55813 13.6353 4.32478 13.6818 4.09966C13.7283 3.87454 13.8431 3.66775 14.0116 3.50544C14.1802 3.34314 14.3949 3.23261 14.6287 3.18783C14.8625 3.14305 15.1048 3.16603 15.325 3.25387C15.5452 3.34171 15.7334 3.49046 15.8659 3.68131C15.9983 3.87216 16.069 4.09653 16.069 4.32607C16.0693 4.47856 16.0384 4.62962 15.9779 4.77058C15.9175 4.91153 15.8287 5.03959 15.7167 5.14743C15.6048 5.25526 15.4718 5.34073 15.3254 5.39894C15.179 5.45714 15.0222 5.48694 14.8638 5.48661ZM9.64151 6.26003C10.2772 6.26003 10.8986 6.44154 11.4271 6.78161C11.9556 7.12169 12.3676 7.60505 12.6108 8.17057C12.8541 8.73609 12.9177 9.35837 12.7937 9.95873C12.6697 10.5591 12.3636 11.1105 11.9141 11.5434C11.4646 11.9762 10.892 12.271 10.2685 12.3904C9.64507 12.5098 8.99886 12.4485 8.41158 12.2143C7.82431 11.98 7.32236 11.5833 6.96921 11.0744C6.61606 10.5654 6.42756 9.96705 6.42756 9.35494C6.42847 8.53439 6.76738 7.74769 7.36991 7.16747C7.97245 6.58726 8.7894 6.2609 9.64151 6.26003ZM9.64151 4.71278C8.68806 4.71278 7.75603 4.98503 6.96327 5.49512C6.17051 6.00521 5.55263 6.73022 5.18776 7.57846C4.82289 8.4267 4.72742 9.36009 4.91343 10.2606C5.09944 11.1611 5.55857 11.9882 6.23275 12.6374C6.90694 13.2867 7.76591 13.7288 8.70104 13.9079C9.63616 14.087 10.6054 13.9951 11.4863 13.6437C12.3672 13.2924 13.1201 12.6974 13.6498 11.934C14.1795 11.1706 14.4622 10.2731 14.4622 9.35494C14.4622 8.12376 13.9543 6.94301 13.0503 6.07244C12.1462 5.20186 10.92 4.71278 9.64151 4.71278Z"
+                                            class="svg-rs" />
+                                    </svg>
+                                </a>
+                                <a class="single-rs-container rounded-full d-flex justify-center items-center">
+                                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M19.2828 9.35415C19.2828 4.22705 14.9657 0.0698242 9.64141 0.0698242C4.31711 0.0698242 0 4.22705 0 9.35415C0 13.988 3.52514 17.829 8.13494 18.5261V12.0387H5.68628V9.35415H8.13494V7.3087C8.13494 4.98223 9.5747 3.6961 11.7767 3.6961C12.8317 3.6961 13.9353 3.87764 13.9353 3.87764V6.16266H12.7189C11.5219 6.16266 11.1475 6.87805 11.1475 7.61334V9.35415H13.8212L13.3942 12.0387H11.1479V18.527C15.7577 17.8302 19.2828 13.9893 19.2828 9.35415Z"
+                                            class="svg-rs" />
+                                    </svg>
+                                </a>
+                                <a class="single-rs-container rounded-full d-flex justify-center items-center">
+
+                                    <svg width="21" height="17" viewBox="0 0 21 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.6602 2.02824C19.8852 2.36498 19.0652 2.58683 18.2261 2.68679C19.1079 2.17045 19.7711 1.35014 20.0912 0.379734C19.2575 0.867224 18.3469 1.20927 17.3984 1.39122C16.9991 0.972651 16.5187 0.639667 15.9866 0.412508C15.4546 0.18535 14.8818 0.0687622 14.3033 0.0698315C11.9609 0.0698315 10.0654 1.93785 10.0654 4.2406C10.0637 4.56091 10.1004 4.88026 10.1747 5.19183C8.49507 5.11309 6.85036 4.68462 5.34581 3.93382C3.84126 3.18303 2.50999 2.12645 1.43717 0.831675C1.0608 1.46617 0.861758 2.1901 0.86084 2.92782C0.86084 4.37403 1.61537 5.65238 2.75469 6.40131C2.07967 6.38529 1.41849 6.20663 0.827268 5.8805V5.93215C0.827268 7.95513 2.2907 9.63807 4.22759 10.0211C3.86336 10.1182 3.48803 10.1674 3.11108 10.1675C2.84361 10.168 2.57674 10.142 2.31437 10.09C2.85283 11.7471 4.41999 12.9523 6.27639 12.9867C4.76793 14.1493 2.91593 14.7776 1.01149 14.773C0.673443 14.7725 0.335713 14.7524 0 14.7127C1.9374 15.9498 4.18947 16.6042 6.48815 16.598C14.2943 16.598 18.5589 10.2407 18.5589 4.72698C18.5589 4.5462 18.5541 4.36542 18.5455 4.18895C19.3733 3.60016 20.0893 2.86847 20.6602 2.02824Z"
+                                            class="svg-rs" />
+                                    </svg>
+
+                                </a>
+                                <a class="single-rs-container rounded-full d-flex justify-center items-center">
+
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.79664 0.0698242C4.38662 0.0698242 0 4.45449 0 9.86209C0 13.8708 2.41417 17.3156 5.86486 18.8325C5.83862 18.1505 5.86049 17.3287 6.03543 16.5855C6.22349 15.7899 7.295 11.2479 7.295 11.2479C7.295 11.2479 6.9801 10.6227 6.9801 9.70034C6.9801 8.24899 7.81982 7.16485 8.86946 7.16485C9.76165 7.16485 10.1903 7.83369 10.1903 8.63369C10.1903 9.52985 9.61732 10.8675 9.3243 12.1091C9.07938 13.1495 9.84475 13.9932 10.8725 13.9932C12.7269 13.9932 13.9777 11.6107 13.9777 8.78669C13.9777 6.64026 12.5301 5.0359 9.9016 5.0359C6.932 5.0359 5.07763 7.25228 5.07763 9.72657C5.07763 10.579 5.3313 11.1823 5.72491 11.6457C5.90422 11.8599 5.93046 11.9473 5.86486 12.1921C5.81675 12.3714 5.71179 12.8041 5.66368 12.979C5.59808 13.2282 5.3969 13.3156 5.17385 13.2238C3.80494 12.6643 3.16641 11.1692 3.16641 9.48177C3.16641 6.70146 5.51498 3.36597 10.1684 3.36597C13.9077 3.36597 16.37 6.07196 16.37 8.97467C16.37 12.8173 14.2314 15.685 11.0824 15.685C10.0241 15.685 9.03128 15.1123 8.69014 14.4653C8.69014 14.4653 8.12159 16.721 7.99913 17.1582C7.79357 17.9145 7.38684 18.6664 7.01509 19.2565C7.91686 19.5225 8.85208 19.6579 9.79226 19.6587C15.2023 19.6587 19.5889 15.2741 19.5889 9.86646C19.5889 4.45886 15.2067 0.0698242 9.79664 0.0698242Z"
+                                            class="svg-rs" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-gray" />
+            <div class="footer-bottom d-flex justify-center text-center">
+                <p>Copyright &copy; <a href="/" class="font-bold hover-primary decoration-none text-dark">Organick</a> |
+                    Designed by <a href="/" class="font-bold hover-primary decoration-none text-dark">sbd-wp</a></p>
+            </div>
+        </div>
+    </footer>
+
+<script src="/static/js/main.js"></script>
+</body>
+
+</html>

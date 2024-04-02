@@ -1,0 +1,449 @@
+.nav-items {
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.nav-items a:hover {
+    color: var(--primary-color);
+}
+
+
+.nav-logo {
+    width: 36px;
+    height: 40px;
+}
+
+.logo-container {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.logo-container h3:hover {
+    color: var(--primary-color);
+}
+
+.footer-top-info {}
+
+.divider-y {
+    border: 1px solid var(--gray-color);
+}
+
+.text-logo {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44.53px;
+    text-align: left;
+    color: var(--secondary-color);
+
+}
+
+.single-rs-container {
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-green-200);
+    color: var(--secondary-color) !important;
+    overflow: hidden;
+}
+
+.single-rs-container:hover {
+    background-color: var(--primary-color);
+}
+
+.svg-rs {
+    fill: var(--secondary-color);
+}
+
+.single-rs-container:hover svg .svg-rs {
+    fill: white;
+}
+
+.btn-menu-nav {
+    border-radius: 5px;
+    padding: 0;
+}
+
+.btn-menu-nav:hover {
+    background-color: var(--color-green-200);
+}
+
+.btn-menu-nav:focus {
+    background-color: var(--secondary-color);
+}
+
+.btn-menu-nav:focus svg .stroke-primary {
+    stroke: white;
+}
+
+.hero-404 {
+    background-image: url("/static/images/banner_404.png");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-404-container {
+    gap: 0px;
+    opacity: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.text-404 {
+    font-size: 250px;
+    color: #8FA8A8;
+    margin: 0;
+    padding: 0;
+    opacity: 0px;
+}
+
+.page-not-found-text {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.btn {
+    border-radius: 8px;
+    border: none;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 95%;
+}
+
+.btn:hover{
+    opacity: 100%;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    opacity: 90%;
+}
+
+.btn-primary :hover {
+    background-color: var(--secondary-color);
+    opacity: 100%;
+
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    opacity: 90%;
+}
+
+.btn-secondary:hover {
+    opacity: 100%;
+}
+
+.btn-outline{
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.btn-white{
+    color: var(--secondary-color);
+    background-color: white;
+}
+
+.btn-outline-reverse{
+    background-color: var(--secondary-color);
+    color: white;
+    border: 1px solid var(--secondary-color);
+    padding-top: 1%;
+}
+
+.btn-outline:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}   
+.btn-outline-reverse:hover{
+    background-color: transparent;
+    color: var(--secondary-color);
+
+}
+
+.btn-yellow{
+    background-color: #EFD372;
+    color: var(--secondary-color);
+}
+.newsletter-card {
+    background-image: url("/static/images/banner_newslettes.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.text-newsletter {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+
+}
+
+.form-input{
+    padding: 15px 0 15px 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.form-input:focus{
+    border:1px solid var(--primary-color) !important;
+}
+
+textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.nos-fermes-banner{
+    background-image: url("/static/images/banner_nos_fermes.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.card{
+    background-color: white;
+    padding:10%;
+    border-radius: 10px;
+}
+
+.h3-nos-fermes{
+    margin-left: 4%;
+}
+
+.card-contact{
+    border: 0.1px solid var(--gray-color);
+    padding: 3%;
+    border-radius: 10px;
+    cursor: pointer;
+    /* box-shadow: 0px 3px 0px 3px var(--secondary-color); */
+
+}
+.card-contact:hover{
+    /* box-shadow: 0px 3px 0px 3px var(--primary-color); */
+    box-shadow: 0px 12px 19px 0px #C9C9C940;
+}
+
+.contact-icon-container{
+    padding: 4%;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.contact-hero{
+    background-image: url("/static/images/banner_contact.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.service-hero{
+    background-image: url("/static/images/banner_services.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-hero{
+    background-image: url("/static/images/Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    background-size: cover;
+    background-position: center;
+}
+
+.play-video-banner{
+ background-image: url("/static/images/paly_vido_banner.jpg");
+ height: 100vh;
+}
+
+.menu-mobile-container{
+    position: absolute;
+    width: 100%;
+    background-color: #8FA8A8;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.card-menu-mobile{
+    /* margin: 0 10px; */
+    background-color: #8FA8A8;
+    height: 100%;
+}
+
+.img-cqnfs{
+
+}
+
+.rounded-green-cercle{
+    padding: 1%;
+    border: #3A7734 solid 2px;
+    border-radius: 100%;
+}
+
+.why-us-p{
+    border-radius: 35px;
+    background-color: #e2e3e5;
+    width: 40%
+}
+
+.green-heading {
+    color: rgba(126, 182, 147, 1);
+    font-family: Yellowtail, sans-serif;
+    font-weight: 400;
+}
+
+.h-4{
+    color: var(--secondary-color);
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.content-2{
+column-gap: 3%;
+}
+
+.section-team{
+    grid-auto-rows: 20% auto;
+    row-gap: 8%;
+}
+
+.team-img{
+    width: 90%;
+}
+
+.team-img-container{
+    column-gap: 5%;
+}
+
+ul{
+    list-style: none;
+}
+
+.fs-1{
+    font-size: 16px;
+}
+
+.offer-product{
+    flex-direction: column;
+    background-color: rgba(39, 76, 91, 1);
+    padding: 5%;
+}
+
+.offer-product h4{
+    color: white;
+}
+
+.offer-product-img{
+        width: 80%;
+}
+.hero-home{
+        background-image: url("/static/images/banner-home.png");
+}
+.banner-promo{
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.banner-promo-1{
+    background-image: url("/static/images/promo1.jpg");
+}
+
+.banner-promo-2{
+    background-image: url("/static/images/promo2.jpg");
+}
+
+
+.banner-about-home {
+    background: #F9F8F8;
+}
+
+
+.testi-banner{
+    background-image: url("/static/images/testi-banner.png");
+    /* height: 120vh; */
+    background-position: center;
+}
+
+.avatar{
+    height: 60px;
+    width: 60px;
+    background-color: #F4F4F4;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.dot{
+    background-color: #e2e3e5;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+}
+.dot.active{
+    background-color: var(--primary-color);
+}
+
+.divide-x{
+    width: 100%;
+    background-color: var(--gray-color);
+    height: 2px;
+}
+
+.round-testi-container{
+    border: 2px solid var(--primary-color);
+    height: 150px;
+    width: 150px;
+}
+
+.round-testi{
+    border-radius: 100%;
+    background: #F1F1F1;
+    height: 100%;
+    width: 100%;
+}
+
+.card-nature{
+    margin-top: 5%;
+    margin-left: 45%;
+    padding: 5%;
+}
+.img-overlay{
+    border-radius: 0px 10px 10px 0px;
+    overflow: hidden;
+}
+
+
+.presentation{
+    background-color: #F1F8F4;
+}
+
+.presentation-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation-bg-1{
+    background-image: url("/static/images/pres-1.jpg");
+}
+.presentation-bg-2{
+    background-image: url("/static/images/pres-4.png");
+}
+.presentation-bg-3{
+    background-image: url("/static/images/pres-3.jpg");
+}

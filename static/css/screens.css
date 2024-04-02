@@ -1,0 +1,93 @@
+@media screen and (max-width : 628px) {
+    .mobile-none{
+        display: none;
+    }
+
+    .mobile-block{
+        display: block;
+    }
+
+    .mobile-columns{
+        flex-direction: column;
+    }
+    .mobile-full{
+        width: 100% !important;
+    }
+    .mobile-h-full{
+        height: 100% !important;
+    }
+    .mobile-98{
+        width: 98%;
+    }
+    .mobile-96{
+        width: 96%;
+    }
+    .mobile-justify-start{
+        justify-content: start;
+    }
+    .mobile-justify-center{
+        justify-content: center;
+    }
+
+    .mobile-justify-between{
+        justify-content: space-between;
+    }
+    .mobile-items-end{
+        align-items: start;
+    }
+    .mobile-items-start{
+        align-items: start;
+    }
+    .mobile-text-center{
+        text-align: center;
+    }
+    .mobile-text-start{
+        text-align: start;
+    }
+    .mobile-p-0{
+        padding: 0 !important;
+    }
+    .mobile-py-4{
+        padding: 5% 0;
+    }
+
+    .mobile-mt-4{
+        margin-top: 3%;
+    }
+
+    .mobile-m-0{
+        margin: 0 !important;
+    }
+    .mobile-rounded{
+        border-radius: 8px !important;
+    }
+    .mobile-mr-4{
+        margin-right: 4px;
+    }
+
+    .mobile-container{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .mobile-static{
+        position: static;
+    }
+
+    .text-404{
+    font-size: 150px;
+    }
+    .round-testi-container{
+        width: 100px;
+        height: 100px;
+    }
+    .round-testi h3{
+        font-size: 20px;
+    }
+    .round-testi p{
+        font-size: 8px;
+    }
+
+    .btn-menu-nav:hover  .menu-mobile-container{
+        display: block !important ;
+    }
+}
